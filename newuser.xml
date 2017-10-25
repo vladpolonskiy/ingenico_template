@@ -1,0 +1,200 @@
+﻿<root>
+  <element id="PageTitle">
+    <text language="en_us"><![CDATA[Ingenico Payment service]]></text>
+    <text language="fr_FR"><![CDATA[Ingenico Payment service]]></text>
+  </element>
+  <element id="Submit">
+    <text language="en_us"><![CDATA[PAY]]></text>
+    <text language="fr_FR"><![CDATA[PAYER]]></text>
+  </element>
+  <element id="Cancel">
+    <text language="en_us"><![CDATA[Cancel]]></text>
+    <text language="fr_FR"><![CDATA[Annuler]]></text>
+  </element>
+  <element id="RememberMyDetails">
+    <text language="en_us"><![CDATA[Remember my details]]></text>
+    <text language="fr_FR"><![CDATA[Se souvenir de mes informations]]></text>
+  </element>
+  <element id="AliasAuthorizationInfo">
+    <text language="en_us"><![CDATA[As your customer, I authorize you and/or your payment processor to store my payment data in a secure way so that I will not have to enter them again when I will perform future payments on your website. If not, my payment data will be deleted as soon as my payment has been processed.]]></text>
+    <text language="fr_FR"><![CDATA[En tant que client, je vous autorise et/ou l'acquéreur de stocker mes données de paiement de manière sécurisée afin de ne pas à avoir les saisir à nouveau quand je vais effectuer des paiements futurs sur votre site web. Si non, mes données de paiement seront supprimées dès que mon paiement a été traité.]]></text>
+  </element>
+  <element id="CardNumber">
+    <text language="en_us"><![CDATA[Card number]]></text>
+    <text language="fr_FR"><![CDATA[Numéro qui se trouve sur la carte]]></text>
+  </element>
+  <element id="CardNumberIsRequired">
+    <text language="en_us"><![CDATA[Card number is required.]]></text>
+    <text language="fr_FR"><![CDATA[Numéro de carte requis]]></text>
+  </element>
+  <element id="InvalidCardNumber">
+    <text language="en_us"><![CDATA[Please enter a valid card number.]]></text>
+    <text language="fr_FR"><![CDATA[Entrez un numéro de carte valide]]></text>
+  </element>
+  <element id="CardNumberTooLong">
+    <text language="en_us"><![CDATA[Card number is too long]]></text>
+    <text language="fr_FR"><![CDATA[Numéro de carte trop long]]></text>
+  </element>
+  <element id="InvalidCardNumberCharacters">
+    <text language="en_us"><![CDATA[Card number is invalid]]></text>
+    <text language="fr_FR"><![CDATA[Numéro de carte non valide]]></text>
+  </element>
+  <element id="CardHolderName">
+    <text language="en_us"><![CDATA[Cardholder's name]]></text>
+    <text language="fr_FR"><![CDATA[Nom du titulaire de la carte]]></text>
+  </element>
+  <element id="CardHolderNameIsRequired">
+    <text language="en_us"><![CDATA[Cardholder's name is required]]></text>
+    <text language="fr_FR"><![CDATA[Nom du titulaire de la carte requis]]></text>
+  </element>
+  <element id="InvalidCardHolderName">
+    <text language="en_us"><![CDATA[Only alphanumeric characters and special characters -:/+()&^@'#.,";+_()*?=[] are allowed.]]></text>
+    <text language="fr_FR"><![CDATA[Seuls les caractères alphanumériques et caractères spéciaux -:/+()&^@'#.,";+_()*?=[] sont autorisés]]></text>
+  </element>
+  <element id="CardHolderNameTooLong">
+    <text language="en_us"><![CDATA[Cardholder Name is too long]]></text>
+    <text language="fr_FR"><![CDATA[Nom du titulaire de la carte trop long]]></text>
+  </element>
+  <element id="ExpiryDate">
+    <text language="en_us"><![CDATA[Expiry date]]></text>
+    <text language="fr_FR"><![CDATA[Date d'expiration]]></text>
+  </element>
+  <element id="InvalidExpiryDate">
+    <text language="en_us"><![CDATA[Please provide a valid expiry date]]></text>
+    <text language="fr_FR"><![CDATA[Veuillez fournir une date d'expiration]]></text>
+  </element>
+  <element id="ExpiryMonthIsRequired">
+    <text language="en_us"><![CDATA[Expiry month is required]]></text>
+    <text language="fr_FR"><![CDATA[Date d'expiration requise]]></text>
+  </element>
+  <element id="InvalidExpiryMonth">
+    <text language="en_us"><![CDATA[Please provide the month of the expiry date]]></text>
+    <text language="fr_FR"><![CDATA[Le mois de la date d'expiration est requis]]></text>
+  </element>
+  <element id="InvalidExpiryMonthLength">
+    <text language="en_us"><![CDATA[Expiry month length invalid]]></text>
+    <text language="fr_FR"><![CDATA[Longueur du mois de la date d'expiration non valide]]></text>
+  </element>
+  <element id="InvalidExpiryMonthCharacters">
+    <text language="en_us"><![CDATA[Expiry month contains non-numeric information]]></text>
+    <text language="fr_FR"><![CDATA[Le mois de la date d'expiration contient des informations non-numérique]]></text>
+  </element>
+  <element id="ExpiryYearIsRequired">
+    <text language="en_us"><![CDATA[Expiry year is required]]></text>
+    <text language="fr_FR"><![CDATA[L'année de la date d'expiration est requise]]></text>
+  </element>
+  <element id="InvalidExpiryYear">
+    <text language="en_us"><![CDATA[Please provide the year of the expiry date]]></text>
+    <text language="fr_FR"><![CDATA[Veuillez fournir l'année de la date d'expiration]]></text>
+  </element>
+  <element id="InvalidExpiryYearLength">
+    <text language="en_us"><![CDATA[Expiry year length is invalid]]></text>
+    <text language="fr_FR"><![CDATA[Longueur de l'année de la date d'expiration non valide]]></text>
+  </element>
+  <element id="InvalidExpiryYearCharacters">
+    <text language="en_us"><![CDATA[Expiry year contains non-numeric information]]></text>
+    <text language="fr_FR"><![CDATA[L'année de la date d'expiration contient des informations non-numérique]]></text>
+  </element>
+  <element id="Cvc">
+    <text language="en_us"><![CDATA[Card verification code]]></text>
+    <text language="fr_FR"><![CDATA[L'année de la date d'expiration contient des informations non-numérique]]></text>
+  </element>
+  <element id="CvcIsRequired">
+    <text language="en_us"><![CDATA[Card verification code is required]]></text>
+    <text language="fr_FR"><![CDATA[Code de vérification de la carte requis]]></text>
+  </element>
+  <element id="InvalidCvcNumber">
+    <text language="en_us"><![CDATA[The CVC you have entered is not correct]]></text>
+    <text language="fr_FR"><![CDATA[Le code de vérification de la carte n'est pas correct]]></text>
+  </element>
+  <element id="CvcTooLong">
+    <text language="en_us"><![CDATA[CVC too long]]></text>
+    <text language="fr_FR"><![CDATA[Le code de vérification de la carte est trop long]]></text>
+  </element>
+  <element id="CvcContainsNonNumericCharacters">
+    <text language="en_us"><![CDATA[CVC contains non-numeric info]]></text>
+    <text language="fr_FR"><![CDATA[Le code de vérification de la carte contient des informations non-numériques]]></text>
+  </element>
+  <element id="VisaCvcInfo">
+    <text language="en_us"><![CDATA[For MasterCard and Visa, look on the back of the card for a 3-digit code on the signature strip. It will be either after the full customer account number or after the last 4 digits of the customer account number.]]></text>
+    <text language="fr_FR"><![CDATA[Pour MasterCard et Visa, vous trouverez sur le dos de la carte pour un code à 3 chiffres sur la bande de signature. Ce sera soit après le numéro de compte complet du client ou après les 4 derniers chiffres du numéro de compte client.]]></text>
+  </element>
+  <element id="EurocardCvcInfo">
+    <text language="en_us"><![CDATA[For MasterCard and Visa, look on the back of the card for a 3-digit code on the signature strip. It will be either after the full customer account number or after the last 4 digits of the customer account number.]]></text>
+    <text language="fr_FR"><![CDATA[Pour MasterCard et Visa, vous trouverez sur le dos de la carte pour un code à 3 chiffres sur la bande de signature. Ce sera soit après le numéro de compte complet du client ou après les 4 derniers chiffres du numéro de compte client.]]></text>
+  </element>
+  <element id="MasterCardCvcInfo">
+    <text language="en_us"><![CDATA[For MasterCard and Visa, look on the back of the card for a 3-digit code on the signature strip. It will be either after the full customer account number or after the last 4 digits of the customer account number.]]></text>
+    <text language="fr_FR"><![CDATA[Pour MasterCard et Visa, vous trouverez sur le dos de la carte pour un code à 3 chiffres sur la bande de signature. Ce sera soit après le numéro de compte complet du client ou après les 4 derniers chiffres du numéro de compte client.]]></text>
+  </element>
+  <element id="MaestroCvcInfo">
+    <text language="en_us"><![CDATA[For $brand$, look on the back of the card for a 3-digit code on the signature strip. It will be either after the full customer account number or after the last 4 digits of the customer account number.]]></text>
+    <text language="fr_FR"><![CDATA[Pour $brand$, Regardez au dos de la carte pour un code à 3 chiffres sur la bande de signature. Ce sera soit après le numéro de compte complet du client ou après les 4 derniers chiffres du numéro de compte client.]]></text>
+  </element>
+  <element id="AmericanExpressCvcInfo">
+    <text language="en_us"><![CDATA[If you have an American Express card, look for the 4-digit code above your account number on the front of the card.]]></text>
+    <text language="fr_FR"><![CDATA[Ceci est une vérification supplémentaire pour assurer que votre carte ne soit pas utilisé par une personne non autorisée. Selon la carte, le code de vérification sera un code de 3 ou 4 chiffres sur le devant ou l'arrière de la carte, un numéro, une date de début ou la date de naissance.]]></text>
+  </element>
+  <element id="DefaultCvcInfo">
+    <text language="en_us"><![CDATA[This is an additional check to ensure that your card is not being used by an unauthorized person. Depending on the card brand, the verification code will be a 3 or 4-digit code on the front or back of the card, an issue number, a start date or a date of birth.]]></text>
+    <text language="fr_FR"><![CDATA[Ceci est une vérification supplémentaire pour assurer que votre carte ne soit pas utilisé par une personne non autorisée. Selon la carte, le code de vérification sera un code de 3 ou 4 chiffres sur le devant ou l'arrière de la carte, un numéro, une date de début ou la date de naissance.]]></text>
+  </element>
+  <element id="AccountOwner">
+    <text language="en_us"><![CDATA[Account owner]]></text>
+    <text language="fr_FR"><![CDATA[Titulaire du compte]]></text>
+  </element>
+  <element id="GiroAccount">
+    <text language="en_us"><![CDATA[Giro-account or bankaccount]]></text>
+    <text language="fr_FR"><![CDATA[Compte Giro ou compte bancaire]]></text>
+  </element>
+  <element id="BicName">
+    <text language="en_us"><![CDATA[BLZ]]></text>
+    <text language="fr_FR"><![CDATA[BLZ]]></text>
+  </element>
+  <element id="Iban">
+    <text language="en_us"><![CDATA[IBAN]]></text>
+    <text language="fr_FR"><![CDATA[IBAN]]></text>
+  </element>
+  <element id="BankAccount">
+    <text language="en_us"><![CDATA[Bank account]]></text>
+    <text language="fr_FR"><![CDATA[Compte bancaire]]></text>
+  </element>
+  <element id="InvalidIbanCharacters">
+    <text language="en_us"><![CDATA[The IBAN contains illegal characters.]]></text>
+    <text language="fr_FR"><![CDATA[IBAN contient des caractères non valides.]]></text>
+  </element>
+  <element id="InvalidIbanStructure">
+    <text language="en_us"><![CDATA[Incorrect IBAN structure]]></text>
+    <text language="fr_FR"><![CDATA[Strucutre IBAN incorrect]]></text>
+  </element>
+  <element id="InvalidCheckDigits">
+    <text language="en_us"><![CDATA[Incorrect IBAN check digits]]></text>
+  </element>
+  <element id="InvalidIbanCountry">
+    <text language="en_us"><![CDATA[Cannot check correct length of IBAN because {0} is currently not respected.]]></text>
+  </element>
+  <element id="InvalidIbanLength">
+    <text language="en_us"><![CDATA[Incorrect IBAN length. The IBAN {0} needs to be {1} characters long.]]></text>
+    <text language="fr_FR"><![CDATA[IBAN incorrect. L'IBAN {0} doit être composé de {1} caractères]]></text>
+  </element>
+  <element id="InvalidIbanNumber">
+    <text language="en_us"><![CDATA[The IBAN is incorrect.]]></text>
+    <text language="fr_FR"><![CDATA[IBAN incorrect]]></text>
+  </element>
+  <element id="InvalidBankAccountNumber">
+    <text language="en_us"><![CDATA[The bank account number you entered is invalid.]]></text>
+    <text language="fr_FR"><![CDATA[Compte bancaire non valide]]></text>
+  </element>
+  <element id="IbanOrBankAccount">
+    <text language="en_us"><![CDATA[IBAN / Bank account]]></text>
+    <text language="fr_FR"><![CDATA[IBAN / Compte bancaire]]></text>
+  </element>
+  <element id="IncorrectBic">
+    <text language="en_us"><![CDATA[BLZ is incorrect.]]></text>
+    <text language="fr_FR"><![CDATA[BLZ incorrect]]></text>
+  </element>
+  <element id="BlzIsRequired">
+    <text language="en_us"><![CDATA[BLZ is required]]></text>
+    <text language="fr_FR"><![CDATA[BLZ requis]]></text>
+  </element>
+</root>

@@ -1,0 +1,96 @@
+﻿html, body {-webkit-font-smoothing:antialiased;}
+
+/*---------FONT STYLE------------*/
+@font-face {
+	font-family: 'open_sansregular';
+		src: url('opensans-regular-webfont.eot');
+		src: url('opensans-regular-webfont.eot#iefix') format('embedded-opentype'),
+			 url('opensans-regular-webfont.woff') format('woff'),
+			 url('opensans-regular-webfont.ttf') format('truetype'),
+			 url('opensans-regular-webfont.svg#open_sansregular') format('svg');
+		font-weight: normal;
+		font-style: normal;
+}
+/*---------FONT STYLE------------*/
+
+/*---------COMMON------------*/
+html, body {margin:0; padding:0; background:#EDEFF0; font-family:'open_sansregular', Arial, Helvetica, sans-serif; font-size:12px; color:#000; }
+a {text-decoration:underline; color:#000; outline:none;}
+a:hover {text-decoration:none;}
+p, form {margin:0; padding:0;}
+input, textarea, select {margin:0; padding:0; outline:none; font-family: 'open_sansregular', Arial, Helvetica, sans-serif; font-size:12px; color:#8d8b8b; -webkit-appearance: none ; -webkit-border-radius: 0;}
+select {background-image: url(select_arrows.png);background-repeat: no-repeat;background-position: right 5px center;padding-right: 20px;background-color:#fff;*background-image: none;background-position-x: 95%;background-position-y: 50%;}
+input[type=checkbox] {-webkit-appearance:checkbox;border: none !important;}
+img {border:0;}
+.fleft { float: left;}
+.clear {width: 100%;clear: both;line-height: 0px;font-size: 0px;}
+.payment-input input{line-height:35px;}
+/*---------COMMON------------*/
+
+/*---------FORM\DATA CONTAINER-----------*/
+#payment-container {width:100%; max-width:450px !important; margin:0 auto;background:#EDEFF0;}
+.payment-form-container {width:280px !important; padding:0 10px; margin:0 auto; background:#EDEFF0;overflow:hidden;}
+#payment-data-container {width:260px !important; padding:20px 10px 5px 10px; margin:0 auto; color:#000; background:#EDEFF0;overflow:hidden;}
+#payment-data-container .payment-label { color:#3E474F; font-size:12px; padding-bottom:3px;  }
+#payment-data-container .payment-input input { width:248px !important; height:35px; color:#000; font-size:12px; margin-bottom:10px; padding:0 5px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; border:1px solid #000; }
+#payment-data-container .payment-input select { width:109px; height:35px; color:#000; font-size:12px; margin-bottom:10px; padding:7px 5px; -webkit-border-radius: 3px;-moz-border-radius: 3px; border-radius: 3px; border:1px solid #000;  }
+#payment-cardnumber-label-container,#payment-accountowner-label-container{ float: left;overflow: hidden;}
+/*---------FORM\DATA CONTAINER-----------*/
+
+/*---------EXPIRY DATE ----------*/
+#payment-expirydate-separator { padding: 10px 18px !important;}
+#payment-expirymonth-input-container, #payment-expirydate-separator { float: left;}
+#payment-expirydate-container .payment-input input {width: 90px !important}
+/*---------EXPIRY DATE ----------*/
+
+/*---------CVC ----------*/
+#payment-cvc-container .payment-input { overflow: hidden;width: 120px;height: 45px;} 
+#payment-cvc-container .payment-input input { width:90px !important; height:35px; float:left; position: relative; } 
+#payment-cvc-container .payment-info {  float: left;margin-bottom: 20px;margin-top: -37px;width: 150px;}
+/*---------CVC ----------*/
+
+
+/*---------SUBMIT\CANCEL BUTTON ----------*/
+#payment-data-container #payment-submit {background: none repeat scroll 0 0 #286090;border: 0 none;color: #FFFFFF;cursor: pointer;height: 40px;padding: 0;text-align: center;width: 125px !important;}
+#payment-submit-container,#payment-cancel-container{ width: 50%;float: left; }
+#payment-cancel-container input,#payment-cancel-container a {-moz-border-bottom-colors: none;-moz-border-left-colors: none;-moz-border-right-colors: none;-moz-border-top-colors: none;background: none repeat scroll 0 0 #f8f8f8;border-color: #f8f8f8;border-style: none none solid;border-width: 0 0 1px;color: #000;cursor: pointer;height: 40px;padding: 0;text-align: center;width: 125px;float: right;line-height: 40px;text-decoration: none;}
+
+    
+/*---------SUBMIT\CANCEL BUTTON ----------*/
+
+/*---------INPUT TEXT TRANSFORM CSS-----------*/
+#payment-cardnumber-container .payment-input input { text-transform: uppercase; }
+#payment-bankaccount-container .payment-input input { text-transform: uppercase; }
+#payment-bic-container .payment-input input { text-transform: uppercase; }
+/*---------INPUT TEXT TRANSFORM CSS-----------*/
+
+/*---------ERROR BOX ----------*/
+.payment-error { width:248px;  color:#ab1500; font-size:12px; margin-bottom:10px; padding:5px 5px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background:#ffe9e8; border:1px solid #ab1500; float:left;  }
+#payment-data-container .payment-input-error input { color:#ab1500; border:1px solid #ab1500;}
+#payment-data-container .payment-input-error select { color:#ab1500; border:1px solid #ab1500;}
+/*---------ERROR BOX ----------*/
+
+/*---------INFORMATION BOX ----------*/
+.payment-method-info {background:url(payment_info.png) 4px 1px no-repeat;float: right;height: 27px;width: 25px;cursor: help;}
+#payment-cvc-info-container div.help-box {border: 1px solid rgb(0, 0, 0);background: #fff; border-radius: 3px; width: 257px; overflow: hidden; height: auto; min-height: 50px; margin-top: 40px;display: none;}
+#payment-cvc-info-container span.aroowImg {background: #fff url(arrow-top.png) 0 0 no-repeat; height: 9px;left: 50%;margin-top: -9px;position: absolute;width: 13px; }
+#payment-cvc-info-container p.cvc-info-txt{ padding: 12px;color: #000;}
+/*---------INFORMATION BOX ----------*/
+
+#payment-cvc-flag-container, #payment-address-container, #payment-postcode-container, #payment-city-container { display: none;}
+
+/*---------ALIAS ----------*/
+#payment-alias-container{ float: left;}
+#payment-alias-container .payment-input input { height:35px; float:left;width: 13px !important;height: 20px !important;margin: 0;padding: 0;position: relative;} 
+#payment-alias-container .payment-input span { height:35px; float:left;width: 230px !important;margin: 0 0 10px 10px;padding: 0;height: auto;} 
+#payment-alias-label-container{margin-left: 20px;margin-top: 1px;position: relative;width: 138px;}
+#payment-alias-container .payment-info { float: left;margin-bottom: 5px;margin-top: -19px;width: 257px;}
+.payment-alias-info {background:url(payment_info.png) 4px 1px no-repeat;float: right;height: 27px;width: 36px;cursor: help;margin-top: -1px;margin-right: 65px;}
+#payment-alias-info-container div.alias-help-box {border: 1px solid rgb(0, 0, 0);background: #fff; border-radius: 3px; width: 257px; overflow: hidden; height: auto; min-height: 50px; margin-top: 35px;display: none;}
+#payment-alias-info-container span.aroowImg {background: #fff url(arrow-top.png) 0 0 no-repeat; height: 9px;margin-left: 160px;margin-top: -9px;position: absolute;width: 13px; }
+#payment-alias-info-container p.alias-info-txt{ padding: 12px;color: #000;}
+/*---------ALIAS ----------*/
+
+
+
+
