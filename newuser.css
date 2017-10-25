@@ -52,7 +52,7 @@ img {border:0;}
 
 /*---------SUBMIT\CANCEL BUTTON ----------*/
 #payment-data-container #payment-submit {background: none repeat scroll 0 0 #286090;border: 0 none;color: #FFFFFF;cursor: pointer;height: 40px;padding: 0;text-align: center;width: 125px !important;}
-#payment-submit-container,#payment-cancel-container{ width: 50%;float: left; }
+#payment-submit-container,#payment-cancel-container{ width: 50%;float: left; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
 #payment-cancel-container input,#payment-cancel-container a {-moz-border-bottom-colors: none;-moz-border-left-colors: none;-moz-border-right-colors: none;-moz-border-top-colors: none;background: none repeat scroll 0 0 #f8f8f8;border-color: #f8f8f8;border-style: none none solid;border-width: 0 0 1px;color: #000;cursor: pointer;height: 40px;padding: 0;text-align: center;width: 125px;float: right;line-height: 40px;text-decoration: none;}
 
     
