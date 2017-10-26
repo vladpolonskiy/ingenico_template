@@ -14,7 +14,7 @@
 /*---------FONT STYLE------------*/
 
 /*---------COMMON------------*/
-html, body {margin:0; padding:0; background:#EDEFF0; font-family:'open_sansregular', Arial, Helvetica, sans-serif; font-size:12px; color:#000; }
+html, body {margin:0; padding:0; background: white; font-family:'open_sansregular', Arial, Helvetica, sans-serif; font-size:12px; color:#000; }
 a {text-decoration:underline; color:#000; outline:none;}
 a:hover {text-decoration:none;}
 p, form {margin:0; padding:0;}
@@ -28,12 +28,12 @@ img {border:0;}
 /*---------COMMON------------*/
 
 /*---------FORM\DATA CONTAINER-----------*/
-#payment-container {width:100%; max-width:450px !important; margin:0 auto;background:#EDEFF0;}
-.payment-form-container {width:280px !important; padding:0 10px; margin:0 auto; background:#EDEFF0;overflow:hidden;}
-#payment-data-container {width:260px !important; padding:20px 10px 5px 10px; margin:0 auto; color:#000; background:#EDEFF0;overflow:hidden;}
+#payment-container {width:100%; margin:0 auto;}
+.payment-form-container {padding:0 10px; margin:0 auto; overflow:hidden;}
+#payment-data-container {width: 329px !important; padding:20px 10px 5px 10px; margin:0 auto; color:#000; overflow:hidden;}
 #payment-data-container .payment-label { color:#3E474F; font-size:12px; padding-bottom:3px;  }
-#payment-data-container .payment-input input { width:248px !important; height:35px; color:#000; font-size:12px; margin-bottom:10px; padding:0 5px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; border:1px solid #000; }
-#payment-data-container .payment-input select { width:109px; height:35px; color:#000; font-size:12px; margin-bottom:10px; padding:7px 5px; -webkit-border-radius: 3px;-moz-border-radius: 3px; border-radius: 3px; border:1px solid #000;  }
+#payment-data-container .payment-input input { width:327px !important; height:60px; color:#000; font-size:12px; margin-bottom:10px; padding:0 5px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; border: 1px solid #d8d8d8; }
+#payment-data-container .payment-input select { width:132px; height:60px; color:#000; font-size:12px; margin-bottom:10px; padding:7px 5px; -webkit-border-radius: 3px;-moz-border-radius: 3px; border-radius: 3px; border: 1px solid #d8d8d8;  }
 #payment-cardnumber-label-container,#payment-accountowner-label-container{ float: left;overflow: hidden;}
 /*---------FORM\DATA CONTAINER-----------*/
 
@@ -44,17 +44,17 @@ img {border:0;}
 /*---------EXPIRY DATE ----------*/
 
 /*---------CVC ----------*/
-#payment-cvc-container .payment-input { overflow: hidden;width: 120px;height: 45px;} 
-#payment-cvc-container .payment-input input { width:90px !important; height:35px; float:left; position: relative; } 
+#payment-cvc-container .payment-input { overflow: hidden; width: 339px; height: 75px;}
+#payment-cvc-container .payment-input input { width:327px !important; height:60px; float:left; position: relative; } 
 #payment-cvc-container .payment-info {  float: left;margin-bottom: 20px;margin-top: -37px;width: 150px;}
 /*---------CVC ----------*/
 
 
 /*---------SUBMIT\CANCEL BUTTON ----------*/
-#payment-data-container #payment-submit {background: none repeat scroll 0 0 #286090;border: 0 none;color: #FFFFFF;cursor: pointer;height: 40px;padding: 0;text-align: center;width: 125px !important;}
-#payment-submit-container,#payment-cancel-container{ width: 50%;float: left; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
-#payment-cancel-container input,#payment-cancel-container a {-moz-border-bottom-colors: none;-moz-border-left-colors: none;-moz-border-right-colors: none;-moz-border-top-colors: none;background: none repeat scroll 0 0 #f8f8f8;border-color: #f8f8f8;border-style: none none solid;border-width: 0 0 1px;color: #000;cursor: pointer;height: 40px;padding: 0;text-align: center;width: 125px;float: right;line-height: 40px;text-decoration: none;}
-
+#payment-data-container #payment-submit {border-radius: 100px; background: none repeat scroll 0 0 #286090;border: 0 none;color: #FFFFFF;cursor: pointer;height: 60px;padding: 0;text-align: center;width: 100% !important;font-size: 16px;font-weight: bold;}
+#payment-submit-container,#payment-cancel-container{ width: 100%;float: left; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+#payment-cancel-container input,#payment-cancel-container a {-moz-border-bottom-colors: none;-moz-border-left-colors: none;-moz-border-right-colors: none;-moz-border-top-colors: none;background: white;border-color: #d8d8d8;border-style: solid;border-width: 1px;color: #2c2c2c;cursor: pointer;padding: 0;text-align: center;float: right;line-height: 40px;text-decoration: none;}
+#payment-cancel {border-radius: 100px; height: 60px; width: 100%; margin-top: 10px; font-size: 16px; font-weight: 'bold'}
     
 /*---------SUBMIT\CANCEL BUTTON ----------*/
 
