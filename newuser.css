@@ -92,10 +92,13 @@ img {border:0;}
 #payment-alias-info-container span.aroowImg {background: #fff url(arrow-top.png) 0 0 no-repeat; height: 9px;margin-left: 160px;margin-top: -9px;position: absolute;width: 13px; }
 #payment-alias-info-container p.alias-info-txt{ padding: 12px;color: #000;}
 #payment-cardnumber-container:before {
-    content: '';
-    display: block;
-    width: 40px;
-    height: 40px;
-    background: #000;
+	content: '';
+	display: block;
+	width: 85px;
+	height: 40px;
+	background: url(visa-icon.png), url(master-card-icon.png);
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: left, right, bottom, right;
+	background-size: contain;
 }
 /*---------ALIAS ----------*/
