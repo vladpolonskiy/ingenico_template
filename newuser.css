@@ -47,7 +47,7 @@ img {border:0;}
 
 /*---------CVC ----------*/
 #payment-cvc-container .payment-input { overflow: hidden; width: 339px; height: 75px;}
-#payment-cvc-container .payment-input input { width:317px !important; height:60px; float:left; position: relative; } 
+#payment-cvc-container .payment-input input { width:317px !important; height:60px; float:left; position: relative; }
 #payment-cvc-container .payment-info {  float: left;margin-bottom: 20px;margin-top: -37px;width: 150px;}
 /*---------CVC ----------*/
 
@@ -57,7 +57,7 @@ img {border:0;}
 #payment-submit-container,#payment-cancel-container{ width: 100%;float: left; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
 #payment-cancel-container input,#payment-cancel-container a {-moz-border-bottom-colors: none;-moz-border-left-colors: none;-moz-border-right-colors: none;-moz-border-top-colors: none;background: white;border-color: #d8d8d8;border-style: solid;border-width: 1px;color: #2c2c2c;cursor: pointer;padding: 0;text-align: center;float: right;line-height: 40px;text-decoration: none;}
 #payment-cancel {border-radius: 100px; height: 60px; width: 100%; margin-top: 10px; font-size: 16px !important; font-weight: 'bold' !important;}
-    
+
 /*---------SUBMIT\CANCEL BUTTON ----------*/
 
 /*---------INPUT TEXT TRANSFORM CSS-----------*/
@@ -83,16 +83,19 @@ img {border:0;}
 
 /*---------ALIAS ----------*/
 #payment-alias-container{ float: left;}
-#payment-alias-container .payment-input input { height:35px; float:left;width: 13px !important;height: 20px !important;margin: 0;padding: 0;position: relative;} 
-#payment-alias-container .payment-input span { height:35px; float:left;width: 230px !important;margin: 0 0 10px 10px;padding: 0;height: auto;} 
+#payment-alias-container .payment-input input { height:35px; float:left;width: 13px !important;height: 20px !important;margin: 0;padding: 0;position: relative;}
+#payment-alias-container .payment-input span { height:35px; float:left;width: 230px !important;margin: 0 0 10px 10px;padding: 0;height: auto;}
 #payment-alias-label-container{margin-left: 20px;margin-top: 1px;position: relative;width: 138px;}
 #payment-alias-container .payment-info { float: left;margin-bottom: 5px;margin-top: -19px;width: 257px;}
 .payment-alias-info {background:url(payment_info.png) 4px 1px no-repeat;float: right;height: 27px;width: 36px;cursor: help;margin-top: -1px;margin-right: 65px;}
 #payment-alias-info-container div.alias-help-box {border: 1px solid rgb(0, 0, 0);background: #fff; border-radius: 3px; width: 257px; overflow: hidden; height: auto; min-height: 50px; margin-top: 35px;display: none;}
 #payment-alias-info-container span.aroowImg {background: #fff url(arrow-top.png) 0 0 no-repeat; height: 9px;margin-left: 160px;margin-top: -9px;position: absolute;width: 13px; }
 #payment-alias-info-container p.alias-info-txt{ padding: 12px;color: #000;}
+#payment-cardnumber-container:before {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #000;
+}
 /*---------ALIAS ----------*/
-
-
-
-
