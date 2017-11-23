@@ -58,10 +58,10 @@ img {border:0;}
 #payment-cancel-container input,#payment-cancel-container a {-moz-border-bottom-colors: none;-moz-border-left-colors: none;-moz-border-right-colors: none;-moz-border-top-colors: none;background: white;border-color: #d8d8d8;border-style: solid;border-width: 1px;color: #2c2c2c;cursor: pointer;padding: 0;text-align: center;float: right;line-height: 40px;text-decoration: none;}
 #payment-cancel {border-radius: 100px; height: 60px; width: 100%; margin-top: 10px; font-size: 16px !important; font-weight: 'bold' !important;}
 #payment-submit-container:before {
-    content: "Do not press the submit button twice";
-    display: inline-block;
-    padding: 3px;
-    color: #3E474F;
+	content: "* Do not click the submit button twice . Once you have clicked submit, please wait for a few seconds and allow for the next screen to load as the order processing time may vary";
+	display: inline-block;
+	padding: 3px;
+	color: red;
 }
 /*---------SUBMIT\CANCEL BUTTON ----------*/
 
