@@ -57,7 +57,12 @@ img {border:0;}
 #payment-submit-container,#payment-cancel-container{ width: 100%;float: left; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
 #payment-cancel-container input,#payment-cancel-container a {-moz-border-bottom-colors: none;-moz-border-left-colors: none;-moz-border-right-colors: none;-moz-border-top-colors: none;background: white;border-color: #d8d8d8;border-style: solid;border-width: 1px;color: #2c2c2c;cursor: pointer;padding: 0;text-align: center;float: right;line-height: 40px;text-decoration: none;}
 #payment-cancel {border-radius: 100px; height: 60px; width: 100%; margin-top: 10px; font-size: 16px !important; font-weight: 'bold' !important;}
-
+#payment-submit-container:before {
+    content: "Do not press the submit button twice";
+    display: inline-block;
+    padding: 3px;
+    color: #3E474F;
+}
 /*---------SUBMIT\CANCEL BUTTON ----------*/
 
 /*---------INPUT TEXT TRANSFORM CSS-----------*/
