@@ -10,5 +10,12 @@
     <div id="paymentForm">
         $$$PAYMENT ZONE$$$
     </div>
+    <script>
+      console.log('HERE', document.getElementById("payment-container"));
+      document.getElementById("payment-submit").addEventListener("click", function(){
+          document.getElementById("payment-submit").disabled = true;
+             document.getElementById("payment").submit();
+      });
+    </script>
 </body>
 </html>
