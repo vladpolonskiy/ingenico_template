@@ -57,12 +57,6 @@ img {border:0;}
 #payment-submit-container,#payment-cancel-container{ width: 100%;float: left; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
 #payment-cancel-container input,#payment-cancel-container a {-moz-border-bottom-colors: none;-moz-border-left-colors: none;-moz-border-right-colors: none;-moz-border-top-colors: none;background: white;border-color: #d8d8d8;border-style: solid;border-width: 1px;color: #2c2c2c;cursor: pointer;padding: 0;text-align: center;float: right;line-height: 40px;text-decoration: none;}
 #payment-cancel {border-radius: 100px; height: 60px; width: 100%; margin-top: 10px; font-size: 16px !important; font-weight: 'bold' !important;}
-#payment-submit-container:before {
-	content: "* Do not click the submit button twice . Once you have clicked submit, please wait for a few seconds and allow for the next screen to load as the order processing time may vary";
-	display: inline-block;
-	padding: 3px;
-	color: red;
-}
 /*---------SUBMIT\CANCEL BUTTON ----------*/
 
 /*---------INPUT TEXT TRANSFORM CSS-----------*/
@@ -96,7 +90,7 @@ img {border:0;}
 #payment-alias-info-container div.alias-help-box {border: 1px solid rgb(0, 0, 0);background: #fff; border-radius: 3px; width: 257px; overflow: hidden; height: auto; min-height: 50px; margin-top: 35px;display: none;}
 #payment-alias-info-container span.aroowImg {background: #fff url(arrow-top.png) 0 0 no-repeat; height: 9px;margin-left: 160px;margin-top: -9px;position: absolute;width: 13px; }
 #payment-alias-info-container p.alias-info-txt{ padding: 12px;color: #000;}
-#payment-cardnumber-container:before {
+#payment-data-container:before {
 	content: '';
 	display: block;
 	width: 85px;
@@ -105,5 +99,17 @@ img {border:0;}
 	background-repeat: no-repeat, no-repeat, no-repeat;
 	background-position: left, right, bottom, right;
 	background-size: contain;
+}
+#preloader {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: url(preloader.gif) center center no-repeat;
+	opacity: .7;
+	z-index: 9999;
+}
+#preloader.active {
+	display: block;
 }
 /*---------ALIAS ----------*/

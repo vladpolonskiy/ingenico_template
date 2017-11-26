@@ -4,7 +4,7 @@
     <text language="fr_FR"><![CDATA[Ingenico Payment service]]></text>
   </element>
   <element id="Submit">
-    <text language="en_us"><![CDATA[PAY]]></text>
+    <text language="en_us"><![CDATA[Submit]]></text>
     <text language="fr_FR"><![CDATA[PAYER]]></text>
   </element>
   <element id="Cancel">

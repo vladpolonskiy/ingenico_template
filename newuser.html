@@ -8,13 +8,21 @@
 
 <body>
     <div id="paymentForm">
+        <div id="preloader"></div>
         $$$PAYMENT ZONE$$$
     </div>
     <script>
-      console.log('HERE', document.getElementById("payment-container"));
-      document.getElementById("payment-submit").addEventListener("click", function(){
-          document.getElementById("payment-submit").disabled = true;
-             document.getElementById("payment").submit();
+      document.getElementById("payment-submit").addEventListener("click", function(e){
+        e.preventDefault();
+        setTimeout(() => {
+          const errors = document.getElementsByClassName('payment-input-error').length;
+          const paymentBtn = document.getElementById("payment");
+          const preloader = document.getElementById("preloader");
+          if (!errors) {
+            preloader.className += ' active';
+            paymentBtn.submit();
+          }
+        });
       });
     </script>
 </body>
