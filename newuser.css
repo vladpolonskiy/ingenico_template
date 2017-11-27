@@ -108,8 +108,13 @@ img {border:0;}
 	background: url(preloader.gif) center center no-repeat;
 	opacity: .7;
 	z-index: 9999;
+	width: 100%;
+	height: 100%;
 }
 #preloader.active {
 	display: block;
+}
+#paymentForm {
+	position: relative;
 }
 /*---------ALIAS ----------*/
