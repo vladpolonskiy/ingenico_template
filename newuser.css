@@ -90,6 +90,13 @@ img {border:0;}
 #payment-alias-info-container div.alias-help-box {border: 1px solid rgb(0, 0, 0);background: #fff; border-radius: 3px; width: 257px; overflow: hidden; height: auto; min-height: 50px; margin-top: 35px;display: none;}
 #payment-alias-info-container span.aroowImg {background: #fff url(arrow-top.png) 0 0 no-repeat; height: 9px;margin-left: 160px;margin-top: -9px;position: absolute;width: 13px; }
 #payment-alias-info-container p.alias-info-txt{ padding: 12px;color: #000;}
+#payment-submit-container:before {
+	content: "* Do not click the submit button twice . Once you have clicked submit, please wait for a few seconds and allow for the next screen to load as the order processing time may vary";
+	display: inline-block;
+	padding: 3px;
+	color: red;
+}
+
 #payment-data-container:before {
 	content: '';
 	display: block;
